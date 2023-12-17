@@ -1,9 +1,9 @@
-// import Intro from "@/components/intro";
+import Intro from "@/components/intro";
 
 export default function Home() {
   return (
     <main className="">
-      {/* <Intro></Intro> */}
+      <Intro></Intro>
     </main>
   )
 }
