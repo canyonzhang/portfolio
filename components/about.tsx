@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-// import SectionHeading from "./section-heading";
+import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 // import { useSectionInView } from "@/lib/hooks";
 
@@ -17,7 +17,7 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      {/* <SectionHeading>About me</SectionHeading> */}
+      <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         My past experiences have taken me across multiple industries{" "} where I've driven 
         <span className="font-medium"> impactful projects</span>, ranging from developing applications that 
