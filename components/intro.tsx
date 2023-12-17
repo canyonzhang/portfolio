@@ -3,6 +3,9 @@
 import React from 'react'
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { HiDownload } from "react-icons/hi";
+import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
     return (
@@ -28,7 +31,7 @@ export default function Intro() {
               shadow-xl"
             />
           </motion.div>
-          
+
           <motion.span
             className="absolute bottom-0 right-0 text-4xl"
             initial={{ opacity: 0, scale: 0 }}
@@ -37,13 +40,25 @@ export default function Intro() {
               type: "spring",
               stiffness: 125,
               delay: 0.1,
-              duration: 0.7,
+              duration: 0.5,
             }}
           >
             👋
           </motion.span>
         </div>
         </div>
+
+        <motion.h1
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl justify-center text-center items-center h-[50vh]"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
+        <span className="font-bold">Hey, I'm Canyon!</span> I'm a{" "}
+        <span className="font-bold">full-stack developer</span> and{" "}
+        <span className="font-bold">entering my last semester at USC.</span> I am always looking to meet and learn
+        from others <span className="italic">and I would love to connect!</span>.
+      </motion.h1>
+
       </section>
     );
   }
