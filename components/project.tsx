@@ -16,7 +16,8 @@ export default function Project({
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "1.33 1"],
+    offset: ["0 1", "1.33 1"], // When the bottom of the viewport crosses the top of the project card, start the animation, and 
+    // end it when the bottom of the viewport has gone 33 percent beyond the bottom of the project card.
   });
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
@@ -57,7 +58,7 @@ export default function Project({
           className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
         transition 
         group-hover:scale-[1.04]
-        group-hover:-translate-x-3
+        group-hover:-translate-x-5
         group-hover:translate-y-3
         group-hover:-rotate-2
 
