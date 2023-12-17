@@ -9,7 +9,7 @@ import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
     return (
-      <section>
+        <section className="mb-28 max-w-[50rem] mx-auto text-center sm:mb-0 scroll-mt-[100rem]">
         <div className="flex items-center justify-center">
         <div className="relative">
         <motion.div
@@ -49,14 +49,14 @@ export default function Intro() {
         </div>
 
         <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl justify-center text-center items-center h-[50vh]"
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hey, I'm Canyon!</span> I'm a{" "}
+        <span className="font-bold">Hey, I'm Canyon.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> and{" "}
         <span className="font-bold">entering my last semester at USC.</span> I am always looking to meet and learn
-        from others <span className="italic">and I would love to connect!</span>.
+        from others and I would love to connect.
       </motion.h1>
 
       </section>
