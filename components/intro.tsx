@@ -76,14 +76,13 @@ export default function Intro() {
             <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
 
         </Link>
-    </motion.div>
             
             <a
                 className="group bg-black text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition borderBlack dark:bg-gray/10"
                 href="/resume.pdf"
                 download
                 >
-                Download CV{" "}
+                Download Resume{" "}
                 <HiDownload className="opacity-60 hover:text-gray-100 group-hover:translate-y-1 transition" />
                 </a>
 
@@ -102,6 +101,7 @@ export default function Intro() {
                 >
                 <FaGithubSquare />
                 </a>
+                </motion.div>
             </div>
       </section>
     );
