@@ -87,7 +87,7 @@ export default function Intro() {
                 </a>
 
                 <a
-                className="bg-white p-4 text-gray-700 hover:text-gray-100 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderWhite dark:bg-white/10 dark:text-white/60"
+                className="bg-white p-4 text-gray-100 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-100 active:scale-105 transition cursor-pointer borderWhite dark:bg-white/10 dark:text-white/60"
                 href="https://www.linkedin.com/in/canyon-zhang-86231a208/"
                 target="_blank"
                 >
