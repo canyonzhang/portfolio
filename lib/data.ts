@@ -66,11 +66,11 @@ export const projectsData = [
     imageUrl: "/Local_explorer.gif",
   },
   {
-    title: "rmtDev",
+    title: "Gif-Encoder",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "/rmtdev.png",
+      "Built a website to generate gifs from images the user uploaded from their device",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "PlanetScale", "Prisma"],
+    imageUrl: "/nyan_cat.gif",
   },
   {
     title: "MineSweeper",
