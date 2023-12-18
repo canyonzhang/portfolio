@@ -1,3 +1,4 @@
+
 import Header from "@/components/header"; // @ allows us to bypass manually creating the route to the component
 import './globals.css'
 import { Inter } from 'next/font/google'
@@ -17,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
 
       <body
             className={`${inter.className} h-[5000px] bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}>
