@@ -7,7 +7,6 @@ import { useSectionInView } from "@/lib/hooks";
 // import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
-import { FaPaperPlane } from "react-icons/fa";
 import { sendEmail } from "@/actions/sendEmail";
 
 export default function Contact() {
@@ -49,8 +48,10 @@ export default function Contact() {
 
             const {data, error} = await sendEmail(formData);
             if (error){
-              alert(error);
+              toast.error(error);
+              return;
             }
+            toast.success("Email sent successfully");
       }}
     >
       
