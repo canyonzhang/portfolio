@@ -5,7 +5,7 @@ import SectionHeading from "./section-heading";
 import { projectsData } from "@/lib/data";
 import Project from "./project";
 import { useSectionInView } from "@/lib/hooks";
-
+// hi
 
 export default function Projects() {
   const {ref} = useSectionInView('Projects');
