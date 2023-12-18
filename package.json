@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "rules": {
+      "react/no-unescaped-entities": "off"
+  },
   "dependencies": {
     "@react-email/components": "^0.0.12",
     "@react-email/tailwind": "^0.0.13",
