@@ -2,10 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-.my-custom-date {
-    color: #f0f2f5; 
-  }
+html {
+  --line-color: #e5e7eb;
+}
 
-html{
-    --lineColor: #d2d5d9;
+html.dark {
+  --line-color: rgba(255, 255, 255, 0.2);
 }

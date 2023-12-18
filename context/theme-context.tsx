@@ -13,6 +13,7 @@ type ThemeContextType = {
   toggleTheme: () => void;
 };
 
+// Create a react context for the theme
 const ThemeContext = createContext<ThemeContextType | null>(null);
 
 export default function ThemeContextProvider({
@@ -47,6 +48,7 @@ export default function ThemeContextProvider({
     }
   }, []);
 
+  // Provider will provide our theme and a toggleTheme function to be consumed
   return (
     <ThemeContext.Provider
       value={{
