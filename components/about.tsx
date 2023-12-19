@@ -4,7 +4,6 @@
 import React, { useEffect } from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
-// import { useSectionInView } from "@/lib/hooks";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
@@ -24,26 +23,28 @@ export default function About() {
         My past experiences have taken me across multiple industries{" "} where I've driven 
         <span className="font-medium"> impactful projects</span>, ranging from developing applications that 
         <span className="font-medium"> streamline data visualization to enhancing data quality in patient medication delivery.</span>
-        {" "} Whether it is full-stack web development, data engineering, or teaching,
-         <span className="italic">I have always strived to maintain a high level of quality and execution in my work, and to provide something of 
+        {" "} Whatever the task may be,
+         <span className="italic"> I will always strive to maintain a high level of quality and execution in my work, to provide something of 
          value to others.</span> I am focused on leveraging technology to <span className="font-medium">make complex systems user-friendly,</span> 
-         and I'm passionate about continuing to grow my skills as a full stack developer to provide value to as many end users as possible. 
-         <br />
-         My core stack for developing web applications is
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also comfortable with Python, C++, and Typescript and I am quick to learn on the fly. 
-        I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        engineer.
-      </p>
-
+         and I'm passionate about continuing to grow my skills as an engineer. 
+         </p>
+         <p>
+          My core stack for developing web applications is
+          <span className="font-medium">
+            {" "} React, Next.js, Node.js, and MongoDB/Firebase
+          </span>
+          . I also have experience with Python, C++, and Typescript as well as iOS and Android mobile development.
+          I am currently looking for a&nbsp;
+          <span className="font-medium" style={{ whiteSpace: 'nowrap' }}>
+            full-time position as a software engineer.
+          </span>
+        </p>
+      
       <p>
         <span className="italic">Aside from coding</span>, I enjoy playing
         basketball, lifting weights, and enjoying nature with friends. I always love to 
         experience different places and meet new people and try new things (mostly food) {" "}
-        <span className="font-medium">Thanks for checking out my work and I hope to connect!</span>. 
+        <span className="font-medium">Thanks for checking out my website and don't hesitate to reach out!</span>. 
       </p>
     </motion.section>
   );

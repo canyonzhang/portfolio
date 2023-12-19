@@ -67,7 +67,7 @@ export const projectsData = [
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["Swift", "SwiftUI", "MapKit", "Firebase"],
     imageUrl: "/Local_explorer.gif",
-    url: "https://interview-theta-two.vercel.app/documentation"
+    url: "https://github.com/canyonzhang/LocalExplorer/tree/main"
   },
   {
     title: "Gif-Encoder",
