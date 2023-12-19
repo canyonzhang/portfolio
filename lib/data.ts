@@ -35,15 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Engineering Intern (AstraZeneca)",
-    location: "Gaithersburg, Maryland",
-    description:
-      "Developed and trained machine learning models to detect outliers in patient medication delivery data.",
-    icon: React.createElement(AstraZenecaIcon),
-    date: "May 2022 - August 2022",
-  },
-  {
-    title: "Full-Stack Software Engineering Intern (IBM)",
+    title: "Software Engineering Intern (IBM)",
     location: "New York, New York",
     description:
       "Developed a Data Observation Platform for EPM Data Scientists and SMEs to streamline error discovery for validation jobs.",
@@ -56,7 +48,15 @@ export const experiencesData = [
     description:
       "Host office hours to debug student assignments that I also grade for Introduction to Operating Systems and Programming in Python.",
     icon: React.createElement(USCIcon),
-    date: "September 2021 - Present",
+    date: "September 2022 - Present",
+  },
+  {
+    title: "Software Engineering Intern (AstraZeneca)",
+    location: "Gaithersburg, Maryland",
+    description:
+      "Developed and trained machine learning models to detect outliers in patient medication delivery data.",
+    icon: React.createElement(AstraZenecaIcon),
+    date: "May 2022 - August 2022",
   },
 ] as const;
 
