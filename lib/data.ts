@@ -40,7 +40,7 @@ export const experiencesData = [
     description:
       "Developed and trained machine learning models to detect outliers in patient medication delivery data.",
     icon: React.createElement(AstraZenecaIcon),
-    date: "2019 - 2021",
+    date: "May 2022 - August 2022",
   },
   {
     title: "Full-Stack Software Engineering Intern (IBM)",
