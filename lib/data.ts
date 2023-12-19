@@ -75,7 +75,7 @@ export const projectsData = [
       "Built a website to generate gifs from images the user uploaded from their device",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "PlanetScale", "Prisma"],
     imageUrl: "/nyan_cat.gif",
-    url: "https://interview-theta-two.vercel.app/documentation"
+    url: "https://gif-encoder.vercel.app/documentation"
   },
   {
     title: "BeachBuddy",
