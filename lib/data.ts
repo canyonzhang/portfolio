@@ -35,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Engineering Intern",
+    title: "Software Engineering Intern (AstraZeneca)",
     location: "Gaithersburg, Maryland",
     description:
       "Developed and trained machine learning models to detect outliers in patient medication delivery data.",
