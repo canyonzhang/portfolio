@@ -64,7 +64,7 @@ export const projectsData = [
   {
     title: "Local Explorer",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "IOS app allowing users to navigate and search for nearby restaurants entertainment and attractions.",
     tags: ["Swift", "SwiftUI", "MapKit", "Firebase"],
     imageUrl: "/Local_explorer.gif",
     url: "https://github.com/canyonzhang/LocalExplorer/tree/main"
@@ -80,7 +80,7 @@ export const projectsData = [
   {
     title: "BeachBuddy",
     description:
-      "Implemented a mobile beach planning app leveraging Google Maps ",
+      "Apart of a team of 3 developers to build a beach planning app leveraging Google Maps API and following SDLC principles.",
     tags: ["AndroidStudio", "Java", "Android SDK", "Google Maps API", "Espresso", "JUnit"],
     imageUrl: "/SoCalBeachForLife.gif",
     url: "https://github.com/a-harhar/SoCalBeach4Life"
