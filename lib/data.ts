@@ -2,6 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { SiIbm } from "react-icons/si";
+import { AstraZenecaIcon, } from '@/components/icons';
+import {USCIcon} from '@/components/icons';
 
 export const links = [
   {
@@ -32,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineering Intern",
+    location: "Gaithersburg, Maryland",
     description:
       "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(AstraZenecaIcon),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full-Stack Software Engineering Intern (IBM)",
+    location: "New York, New York",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I worked as apart of the EPM team to develop a Data Observation Center for Data Scientists and SMEs to streamline error discovery",
+    icon: React.createElement(SiIbm),
+    date: "May 2023 - August 2023",
+  },
+  {
+    title: "Teaching Assistant/Course Producer (USC)",
+    location: "Los Angeles, CA",
+    description:
+      "I host office hours to help debug student assignments as well as grade the assignments for Introduction to Operating Systems and Programming in Python (USC)",
+    icon: React.createElement(USCIcon),
+    date: "September 2021 - Present",
   },
 ] as const;
 
