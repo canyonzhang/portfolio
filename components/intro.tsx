@@ -63,8 +63,8 @@ export default function Intro() {
       >
         <span className="font-bold">Hey, I'm Canyon.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span>{" "}
-        <span className="font-bold">entering my last semester at USC.</span> I am always looking to meet and learn
-        from others, don't hesitate to reach out!
+        <span className="font-bold">entering my last semester at USC.</span> I'm passionate about connecting and exchanging ideas with others, 
+        so feel free to get in touch!
       </motion.h1>
 
     <div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">

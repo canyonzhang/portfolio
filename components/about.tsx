@@ -42,9 +42,9 @@ export default function About() {
       
       <p>
         <span className="italic">Aside from coding</span>, I enjoy playing
-        basketball, lifting weights, and enjoying nature with friends. I always love to 
-        experience different places and meet new people and try new things (mostly food) {" "}
-        <span className="font-medium">Thanks for checking out my website and don't hesitate to reach out!</span>. 
+        basketball, lifting weights, and exploring nature with friends. I always love to 
+        experience different places, meet new people, and try new things (mostly food). {" "}
+        <span className="font-medium">Thanks for checking out my website and don't hesitate to reach out!</span>
       </p>
     </motion.section>
   );
