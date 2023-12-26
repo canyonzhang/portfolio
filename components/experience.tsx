@@ -28,7 +28,7 @@ export default function Experience() {
       viewport={{
         once: true,
       }}
-    ref={ref} id="experience" className="scroll mt-28 mb-28 sm:mb-40 ">
+    ref={ref} id="experience" className="scroll mt-28 mb-28 sm:mb-40 scroll-mt-28">
         <SectionHeading>My experience</SectionHeading>
         <VerticalTimeline animate={true} lineColor="#ffffff">
             {experiencesData.map((item, index) => (
