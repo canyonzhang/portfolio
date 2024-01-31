@@ -85,6 +85,14 @@ export const projectsData = [
     imageUrl: "/SoCalBeachForLife.gif",
     url: "https://github.com/a-harhar/SoCalBeach4Life"
   },
+  {
+    title: "ChatPDF",
+    description:
+      "Streamlit application that uses langchain and GPT 3.5 to answer user questions based on uploaded PDFs.",
+    tags: ["Streamlit", "Langchain", "Python", "OpenAI API", "Vector Databases", "FAISS"],
+    imageUrl: "/chat-gpt.gif",
+    url: "https://chatpdfdocs.streamlit.app/"
+  },
 ] as const;
 
 export const skillsData = [
