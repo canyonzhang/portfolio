@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { SiIbm } from "react-icons/si";
-import { AstraZenecaIcon, } from '@/components/icons';
+import { AstraZenecaIcon, OmniloreIcon, } from '@/components/icons';
 import {USCIcon} from '@/components/icons';
 
 export const links = [
@@ -35,10 +35,17 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Software Engineer",
+    location: "Los Angeles, CA",
+    description:"Collaborated with a team of six to design and develop a SQL database for Omnilore Learning-In-Retirement, focusing on tracking finances and membership data. Additionally, implemented AWS EC2 cloud services to execute regular cron jobs.",
+    icon: React.createElement(OmniloreIcon),
+    date: "Jan 2024 - May 2024",
+  },
+  {
     title: "Software Engineering Intern (IBM)",
     location: "New York, New York",
     description:
-      "Developed a Data Observation Platform for EPM Data Scientists and SMEs to streamline error discovery for validation jobs.",
+      "Created a Data Observation Platform to enhance error detection in validation jobs for EPM Data Scientists and SMEs. Additionally, integrated a Python-based producer-consumer messaging queue running on an Apache Kafka pod, populating databases",
     icon: React.createElement(SiIbm),
     date: "May 2023 - August 2023",
   },
@@ -46,15 +53,14 @@ export const experiencesData = [
     title: "Teaching Assistant/Course Producer (USC)",
     location: "Los Angeles, CA",
     description:
-      "Host office hours to debug student assignments that I also grade for Introduction to Operating Systems and Programming in Python.",
+      "Host office hours and grade assignments for courses in Introduction to Operating Systems and Programming in Python, focusing on practical applications like multithreading, system calls, and memory management techniques such as MLFQ scheduling and copy-on-write forking.",
     icon: React.createElement(USCIcon),
     date: "September 2022 - Present",
   },
   {
     title: "Software Engineering Intern (AstraZeneca)",
     location: "Gaithersburg, Maryland",
-    description:
-      "Developed and trained machine learning models to detect outliers in patient medication delivery data.",
+    description: "Conducted research and developed machine learning models for detecting outliers in patient medication delivery data. Also engineered an application to automate the allocation of server resources among engineering teams at AZ.",
     icon: React.createElement(AstraZenecaIcon),
     date: "May 2022 - August 2022",
   },
@@ -107,13 +113,15 @@ export const skillsData = [
   "Vue.js",
   "Git",
   "Tailwind",
+  "MySQL",
+  "FastAPI",
+  "Supabase",
   "Prisma",
   "MongoDB",
-  "MySQL",
   "Firebase",
-  "Swift",
+  "Swift/SwiftUI",
   "Java",
   "C++",
-  "Framer Motion",
-  "Planetscale/Vercel"
+  "Dart/Flutter",
+  "Vercel"
 ] as const;

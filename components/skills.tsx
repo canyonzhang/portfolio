@@ -37,7 +37,7 @@ export default function Skills() {
             className="bg-gray-200 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
             key={index}
             variants={fadeInAnimationVariants}
-            initial="initial" // Add the initial stagger animation by using a motion.li
+            initial="initial" // Add initial stagger animation by using a motion.li
             whileInView="animate"
             viewport={{
               once: true,

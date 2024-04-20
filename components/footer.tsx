@@ -10,6 +10,9 @@ export default function Footer() {
         <span className="font-semibold">Portfolio Site:</span> Built with React, Next.js, and TypeScript, styled with Tailwind CSS, animated with Framer Motion, and equipped with email integration through React Email and Resend; 
         deployed and hosted on Vercel.
       </p>
+      <a href="https://github.com/canyonzhang/portfolio" target="_blank" rel="noopener noreferrer" className="text-xs underline">
+        Check out the code for this website!
+      </a>
     </footer>
   );
 }
