@@ -24,9 +24,8 @@ export default function About() {
         <span className="font-medium"> impactful projects</span>, ranging from developing applications that 
         <span className="font-medium"> streamline data visualization to enhancing data quality in patient medication delivery.</span>
         {" "} Whatever the task may be,
-         <span className="italic"> I will always strive to maintain a high level of quality and execution in my work, to provide something of 
-         value to others.</span> I am focused on leveraging technology to <span className="font-medium">make complex systems user-friendly,</span> 
-         and I'm passionate about continuing to grow my skills as an engineer. 
+         I always strive to maintain a high level of quality and execution in my work, to provide something of 
+         value to others, and I'm passionate about continuing to grow my skills and knowledge as an engineer. 
          </p>
          <p>
           My core stack for developing web applications is
@@ -41,9 +40,9 @@ export default function About() {
         </p>
       
       <p>
-        <span className="italic">Aside from coding</span>, I enjoy playing
+       Aside from coding, I enjoy playing
         basketball, lifting weights, and exploring nature with friends. I always love to 
-        experience different places, meet new people, and try new things (mostly food). {" "}
+        experience and see new places, meet new people, and try new things (mostly food). {" "}
         <span className="font-medium">Thanks for checking out my website and don't hesitate to reach out!</span>
       </p>
     </motion.section>
