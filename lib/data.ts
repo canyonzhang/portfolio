@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { SiIbm } from "react-icons/si";
-import { AstraZenecaIcon, OmniloreIcon, } from '@/components/icons';
+import { AstraZenecaIcon, IntelIcon, OmniloreIcon, } from '@/components/icons';
 import {USCIcon} from '@/components/icons';
 
 export const links = [
@@ -35,7 +35,14 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Engineer",
+    title: "Software Engineer (Intel Corporation)",
+    location: "Chandler, AZ",
+    description:"Work with Manufacturing Controls and Integration (MCI) to maintain, develop, and deploy software solutions for factory automation.",
+    icon: React.createElement(IntelIcon),
+    date: "Jul 2024 - Present",
+  },
+  {
+    title: "Software Engineer (Omnilore)",
     location: "Los Angeles, CA",
     description:"Collaborated with a team of six to design and develop a SQL database for Omnilore Learning-In-Retirement, focusing on tracking finances and membership data. Additionally, implemented AWS EC2 cloud services to execute regular cron jobs.",
     icon: React.createElement(OmniloreIcon),
@@ -59,7 +66,7 @@ export const experiencesData = [
   },
   {
     title: "Software Engineering Intern (AstraZeneca)",
-    location: "Gaithersburg, Maryland",
+    location: "Gaithersburg, MD",
     description: "Conducted research and developed machine learning models for detecting outliers in patient medication delivery data. Also engineered an application to automate the allocation of server resources among engineering teams at AZ.",
     icon: React.createElement(AstraZenecaIcon),
     date: "May 2022 - August 2022",

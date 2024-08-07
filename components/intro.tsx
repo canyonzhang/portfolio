@@ -63,7 +63,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hey, I'm Canyon.</span> I'm a{" "}
         software engineer{" "}
-        <span className="font-bold">in my last semester at USC.</span> I'm always looking to connect and exchange ideas with others, 
+        <span className="font-bold">with an emphasis on backend development.</span> I'm always looking to connect and exchange ideas with others, 
         so feel free to get in touch!
       </motion.h1>
 
