@@ -62,7 +62,7 @@ export const experiencesData = [
     description:
       "Host office hours and grade assignments for courses in Introduction to Operating Systems and Programming in Python, focusing on practical applications like multithreading, system calls, and memory management techniques such as MLFQ scheduling and copy-on-write forking.",
     icon: React.createElement(USCIcon),
-    date: "September 2022 - Present",
+    date: "September 2022 - May 2024",
   },
   {
     title: "Software Engineering Intern (AstraZeneca)",
