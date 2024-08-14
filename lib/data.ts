@@ -50,7 +50,7 @@ export const experiencesData = [
   },
   {
     title: "Software Engineering Intern (IBM)",
-    location: "New York, New York",
+    location: "New York City, NY",
     description:
       "Created a Data Observation Platform to enhance error detection in validation jobs for EPM Data Scientists and SMEs. Additionally, integrated a Python-based producer-consumer messaging queue running on an Apache Kafka pod, populating databases",
     icon: React.createElement(SiIbm),
