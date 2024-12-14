@@ -32,7 +32,7 @@ export default function About() {
           <span className="font-medium">
             {" "} automation systems and the various workflows involved with manufacturing wafers.
           </span>
-          My current work involves leveraging github actions and their built in CI/CD workflows to automate and test 
+          {" "} My current work involves leveraging github actions and their built in CI/CD workflows to automate and test 
           various processes including tool installations, transfers, and conversions.
         </p>
       <p>
