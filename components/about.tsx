@@ -28,17 +28,13 @@ export default function About() {
          value to others, and I'm passionate about continuing to grow my skills and knowledge as an engineer. 
          </p>
          <p>
-          My core stack for developing web applications is
+          I am currently working at Intel as a software engineer. My focus is on optimizing and maintaining the factory 
           <span className="font-medium">
-            {" "} React, Next.js, Node.js, and MongoDB/Firebase
+            {" "} automation systems and the various workflows involved with manufacturing wafers.
           </span>
-          . I also have experience with Python, C++, and Typescript as well as iOS and Android mobile development.
-          I am currently looking for a&nbsp;
-          <span className="font-medium" style={{ whiteSpace: 'nowrap' }}>
-            full-time position as a software engineer.
-          </span>
+          My current work involves leveraging github actions and their built in CI/CD workflows to automate and test 
+          various processes including tool installations, transfers, and conversions.
         </p>
-      
       <p>
        Aside from coding, I enjoy playing
         basketball, lifting weights, and exploring nature with friends. I always love to 
