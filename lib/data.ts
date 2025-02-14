@@ -36,7 +36,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Software Engineer (Intel Corporation)",
-    location: "Phoenix, AZ",
+    location: "Remote",
     description:"Work with Manufacturing Controls and Integration (MCI) to maintain, develop, and deploy software solutions for factory automation.",
     icon: React.createElement(IntelIcon),
     date: "Jul 2024 - Present",
