@@ -37,7 +37,7 @@ export const experiencesData = [
   {
     title: "Software Engineer (Intel Corporation)",
     location: "Remote",
-    description:"Work with Manufacturing Controls and Integration (MCI) to maintain, develop, and deploy software solutions for factory automation.",
+    description:"Optimizing the WISTA ETL pipeline for wafer image processing by enhancing CI/CD workflows, Kubernetes deployments, and SQL-based data extraction, improving scalability and reducing processing latency.",
     icon: React.createElement(IntelIcon),
     date: "Jul 2024 - Present",
   },

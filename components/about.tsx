@@ -28,9 +28,9 @@ export default function About() {
          value to others, and I'm passionate about continuing to grow my skills and knowledge as an engineer. 
          </p>
          <p>
-          I am currently working at Intel as a software engineer. My focus is on optimizing and maintaining the factory 
+          I am currently working at Intel as a software engineer. My focus is on optimizing the Wafer Image Scanning Tools and Anayltics (WISTA) ETL pipeline  
           <span className="font-medium">
-            {" "} automation systems and the various workflows involved with manufacturing wafers.
+            {" "} optimizing the CI/CD image processing workflows within the Intel Manufacturing Cloud platform.
           </span>
           {" "} My current work involves leveraging github actions and their built in CI/CD workflows to automate and test 
           various processes including tool installations, transfers, and conversions.
