@@ -91,7 +91,7 @@ export const projectsData = [
     url: "https://gif-encoder.vercel.app/documentation"
   },
   {
-    "title": "Preemptive Multilevel Feedback Queue Scheduler",
+    "title": "MLFQ Scheduler",
     "description": "Implemented a preemptive MLFQ scheduler in xv6, introducing three priority queues, aging, and a periodic boost to prevent starvation.",
     "tags": ["C", "xv6", "Operating Systems", "Kernel Development", "Scheduling"],
     "imageUrl": "/scheduling.gif",
