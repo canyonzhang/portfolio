@@ -92,7 +92,7 @@ export const projectsData = [
   },
   {
     "title": "Preemptive Multilevel Feedback Queue Scheduler",
-    "description": "Implemented a preemptive MLFQ scheduler in xv6, introducing three priority queues, aging, and a periodic boost to prevent starvation. Designed a new syscall to retrieve scheduling statistics and developed test cases to analyze scheduler performance.",
+    "description": "Implemented a preemptive MLFQ scheduler in xv6, introducing three priority queues, aging, and a periodic boost to prevent starvation.",
     "tags": ["C", "xv6", "Operating Systems", "Kernel Development", "Scheduling"],
     "imageUrl": "/scheduling.gif",
     "url": "https://github.com/canyonzhang/xv6-mlfq"
