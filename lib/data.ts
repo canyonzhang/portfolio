@@ -91,6 +91,13 @@ export const projectsData = [
     url: "https://gif-encoder.vercel.app/documentation"
   },
   {
+    "title": "Preemptive Multilevel Feedback Queue Scheduler",
+    "description": "Implemented a preemptive MLFQ scheduler in xv6, introducing three priority queues, aging, and a periodic boost to prevent starvation. Designed a new syscall to retrieve scheduling statistics and developed test cases to analyze scheduler performance.",
+    "tags": ["C", "xv6", "Operating Systems", "Kernel Development", "Scheduling"],
+    "imageUrl": "/scheduling.gif",
+    "url": "https://github.com/canyonzhang/xv6-mlfq"
+  },  
+  {
     title: "BeachBuddy",
     description:
       "Apart of a team of 3 developers to build a beach planning app leveraging Google Maps API and following SDLC principles.",
