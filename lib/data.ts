@@ -83,20 +83,12 @@ export const projectsData = [
     url: "https://github.com/canyonzhang/LocalExplorer/tree/main"
   },
   {
-    title: "Gif-Encoder",
-    description:
-      "Built a website to generate gifs from images the user uploaded from their device",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "PlanetScale", "Prisma"],
-    imageUrl: "/nyan_cat.gif",
-    url: "https://gif-encoder.vercel.app/documentation"
-  },
-  {
     "title": "MLFQ Scheduler",
     "description": "Implemented a preemptive MLFQ scheduler in xv6, introducing three priority queues, aging, and a periodic boost to prevent starvation.",
     "tags": ["C", "xv6", "Operating Systems", "Kernel Development", "Scheduling"],
     "imageUrl": "/scheduling.gif",
     "url": "https://github.com/canyonzhang/xv6-mlfq"
-  },  
+  }, 
   {
     title: "BeachBuddy",
     description:
@@ -113,6 +105,14 @@ export const projectsData = [
     imageUrl: "/chat-gpt.gif",
     url: "https://chatpdfdocs.streamlit.app/"
   },
+  {
+    title: "Gif-Encoder",
+    description:
+      "Built a website to generate gifs from images the user uploaded from their device",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "PlanetScale", "Prisma"],
+    imageUrl: "/nyan_cat.gif",
+    url: "https://gif-encoder.vercel.app/documentation"
+  }, 
 ] as const;
 
 export const skillsData = [
